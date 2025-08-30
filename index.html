@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CSS properties" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>CSS Properties</title>
+  </head>
+  <body>
+    <div id="wrapper">
+      <!--Header section with navigation for page-->
+      <header>
+        <form>
+          <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" required />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input type="password" id="password" required />
+          </div>
+          <div id="form-check">
+            <input type="checkbox" id="stay" />
+            <label for="stay">Stay logged in</label>
+          </div>
+          <button type="submit">Login</button>
+        </form>
+        <h1>Bill's Bookstore</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <ol>
+            <li>Step 1</li>
+            <li>Step 2</li>
+            <li>Step 3</li>
+            <li>Step 4</li>
+          </ol>
+          <p>
+            <strong>Lorem, ipsum</strong> dolor sit amet consectetur adipisicing
+            elit. Quo illum architecto, at, <em>tenetur</em> illo, ipsa
+            veritatis voluptatum totam doloremque accusantium officia
+            consectetur enim possimus repellendus velit ipsum vitae animi?
+            Distinctio adipisci soluta laboriosam cupiditate amet laudantium vel
+            in. Impedit suscipit aut, nulla autem ut possimus quia quasi
+            molestias unde incidunt.
+          </p>
+          <footer>Written by Bill</footer>
+        </section>
+        <section>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti
+            nobis asperiores atque quos alias dolore illum quas inventore vitae,
+            enim repellat corrupti mollitia perspiciatis architecto ipsum quod
+            consequatur qui? Tenetur doloremque, magni culpa placeat repudiandae
+            aut amet. Neque, dignissimos tempore. Hic atque ea, cupiditate
+            doloremque quibusdam quasi similique quia quos.
+          </p>
+        </section>
+        <section>
+          <h2 class="about-heading">About</h2>
+          <p id="about">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quos
+            eum voluptate mollitia assumenda, impedit quidem necessitatibus
+            aliquid. Aperiam, fugiat repellat modi laborum sit quia molestias
+            facilis deserunt officia vero nobis earum cupiditate quae non
+            aliquid corrupti labore recusandae explicabo sapiente cumque qui,
+            eos fuga impedit. Doloribus deserunt delectus quos vel neque
+            laboriosam? Dolores rem illo, architecto veritatis exercitationem
+            sit nam itaque labore consequatur repudiandae iste eos fugiat nihil
+            quidem eligendi ducimus necessitatibus delectus libero?
+          </p>
+        </section>
+        <section>
+          <h2>Shop</h2>
+          <p id="shop">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A nihil
+            dolor magnam optio voluptatem, laudantium saepe. Quia, odio sit
+            dolore dicta laboriosam itaque saepe deserunt, at ratione maiores
+            fugit architecto minima vitae nesciunt ducimus voluptates similique
+            aperiam natus expedita numquam. Maxime quaerat voluptatem ab illum
+            itaque fuga, assumenda eveniet laborum ex eum magni ipsa molestias
+            quos tenetur at est commodi necessitatibus aperiam impedit quidem
+            repudiandae. Vel unde vero odio temporibus quia laudantium hic autem
+            sit, sint voluptates, qui magnam dolorum culpa. Libero, architecto
+            aperiam hic, dolor, numquam expedita soluta earum iure optio laborum
+            aliquam quos necessitatibus natus iusto ut corrupti!
+          </p>
+        </section>
+        <section>
+          <h2 id="contact">Contact</h2>
+          <form>
+            <div>
+              <label for="fname">First Name</label>
+              <input
+                type="text"
+                id="fname"
+                required
+                minlength="1"
+                maxlength="20"
+              />
+            </div>
+            <div>
+              <label for="lname">Last Name</label>
+              <input
+                type="text"
+                id="lname"
+                required
+                minlength="1"
+                maxlength="20"
+              />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+            </div>
+            <div>
+              <label for="age">Age</label>
+              <input type="number" id="age" min="1" max="115" />
+            </div>
+            <div>
+              <label for="message">Message</label>
+              <textarea id="message" cols="30" rows="10" required></textarea>
+            </div>
+            <button type="submit">Send</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright Bill's Bookstore</p>
+      </footer>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

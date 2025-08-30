@@ -1,0 +1,87 @@
+/*--Box model for whole page--*/
+* {
+  box-sizing: border-box;
+}
+/*--General styles for the page--*/
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.063rem;
+  background-color: skyblue;
+}
+/*--Styling for wrapper container--*/
+#wrapper {
+  width: 90%;
+  margin: auto;
+  border: 5px solid darkblue;
+  border-radius: 2rem;
+  background-color: lightslategray;
+}
+/*--Styling for images on the page--*/
+img {
+  display: block;
+  margin: auto;
+  border: 1px solid orange;
+}
+/*--Main Heading Styles--*/
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 5px gold;
+  color: darkblue;
+}
+/*--Paragraph styling*/
+p {
+  line-height: 1.5;
+  padding: 1.25rem;
+}
+/*--Secondary heading styling--*/
+h2 {
+  font-family: "Kalnia", serif;
+  color: darkblue;
+  text-shadow: 1px 1px 1px gold;
+  margin-left: 1.25rem;
+}
+/*--Styling for sub sub heading--*/
+h3 {
+  color: darkblue;
+  margin-left: 1.25rem;
+}
+/*--Main link styles--*/
+a {
+  text-decoration: none;
+  color: azure;
+}
+/*--Hover styling for links--*/
+a:hover {
+  color: blueviolet;
+}
+
+/*--List styles--*/
+ul {
+  list-style: none;
+  /*Flex properties for the list*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  /*Add a gap between elements*/
+  gap: 0.75rem;
+  /*Move the list off of the edge of the border*/
+  margin-right: 1rem;
+}
+
+/*--Footer styling--*/
+footer {
+  margin-bottom: 1rem;
+  margin-left: 1.25rem;
+}
+
+/*Flexbox properties for the header element*/
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  /*move the header off of the border*/
+  margin-left: 1rem;
+}

@@ -1,0 +1,40 @@
+* {
+  margin: auto;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.25rem;
+}
+h1 {
+  font-weight: normal;
+  color: chocolate;
+  background-color: aqua;
+  margin: 2rem;
+  padding: 1rem;
+  border: 4px solid crimson;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: brown;
+}
+a:hover {
+  color: darkgreen;
+}
+
+p {
+  border: 4px solid darkorange;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+}
+#wrapper {
+  border: 4px solid darkolivegreen;
+  width: 90%;
+  margin: auto;
+}
